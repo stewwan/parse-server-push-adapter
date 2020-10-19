@@ -32,18 +32,18 @@ This will produce a more verbose output for all the push sending attempts
 #### Install the push adapter
 
 ```
-npm install --save @parse/push-adapter@VERSION
+npm install --save parse-web-push-adapter
 ```
 
-Replace VERSION with the version you want to install.
 
 #### Configure parse-server
 
 ```js
-const PushAdapter = require('@parse/push-adapter').default;
+const PushAdapter = require('parse-web-push-adapter').default;
 const pushOptions = {
   ios: { /* iOS push options */ } ,
-  android: { /* android push options */ }   
+  android: { /* android push options */ },
+  web: { /* android push options */ } 
 }
 // starting 3.0.0
 const options = {

@@ -1,5 +1,5 @@
 {
-  "name": "@parse/push-adapter",
+  "name": "parse-web-push-adapter",
   "version": "3.3.0",
   "description": "Base parse-server-push-adapter",
   "main": "lib/index.js",
